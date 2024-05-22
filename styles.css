@@ -1,31 +1,56 @@
 * {
-    background-color: hsl(40, 100%, 75%);
+    background-color: hsl(15, 100%, 80%);
     font-family: 'Times New Roman', Times, serif;
     color: hsl(15, 100%, 30%);
     font-size: 18px;
-    line-height: 25px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 10px;
+    border: 20px double hsl(15, 100%, 60%);
+    margin: 10px 600px;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    color: hsl(15, 100%, 40%);
+    color: hsl(15, 100%, 30%);
+    border: 3px solid white;
+    padding: 25px;
+    width: 500px;
+    margin: 10px auto 30px;
 }
 
-a {
-    color: hsl(15, 100%, 30%)
+.link-list {
+    border: 3px dotted white;
+    width: 400px;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .link-list a,
 .link-list {
     font-size: large;
     list-style: none;
-    color: hsl(15, 100%, 30%);
+    color: hsl(15, 100%, 20%);
     line-height: 50px;
     text-align: center;
     padding-left: 0;
+    font-weight: 500;
 }
+
+a {
+    color: hsl(15, 100%, 20%)
+}
+
+
+/* Recipe pages */
 
 .recipe-heading {
     font-size: 40px;
